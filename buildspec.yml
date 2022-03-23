@@ -10,8 +10,8 @@ phases:
       - wget https://repo1.maven.org/maven2/com/veracode/vosp/api/wrappers/vosp-api-wrappers-java/22.1.9.3/vosp-api-wrappers-java-22.1.9.3.jar
       - echo "descargado"
       - mv vosp*.jar /veracode/veracode-wrapper.jar
-      - git clone https://github.com/veracode/verademo.git
-      - zip -r ver.zip verademo/*
+      - git clone https://github.com/gersonmakros/log4jpwn
+      - zip -r ver.zip log4jpwn/*
       - echo "movido"
       - echo $VID
       - echo $VKEY
